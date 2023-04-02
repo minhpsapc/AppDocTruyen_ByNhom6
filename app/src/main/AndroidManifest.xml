@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appdoctruyen62TH4byNhom6">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="APP ĐỌC TRUYỆN BY NHÓM 6"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppDocTruyen">
+        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManAdmin" />
+        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManNoiDungTruyen" />
+        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManDangBai" />
+        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManTimKiem" />
+        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManThongTinApp" />
+        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManDangKy" />
+        <activity android:name="com.example.appdoctruyen62TH4byNhom6.MainActivity" />
+        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManDangNhap">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
