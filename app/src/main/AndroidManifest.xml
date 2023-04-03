@@ -12,14 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppDocTruyen">
-        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManAdmin" />
-        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManNoiDungTruyen" />
-        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManDangBai" />
-        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManTimKiem" />
-        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManThongTinApp" />
-        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManDangKy" />
-        <activity android:name="com.example.appdoctruyen62TH4byNhom6.MainActivity" />
-        <activity android:name="com.example.appdoctruyen62TH4byNhom6.ManDangNhap">
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity android:name=".ManAdmin" />
+        <activity android:name=".ManNoiDungTruyen" />
+        <activity android:name=".ManDangBai" />
+        <activity android:name=".ManTimKiem" />
+        <activity android:name=".ManThongTinApp" />
+        <activity android:name=".ManDangKy" />
+        <activity android:name=".ManDangNhap">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
